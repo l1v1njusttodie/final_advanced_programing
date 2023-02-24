@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN role bool NOT NULL default false;

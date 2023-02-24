@@ -1,0 +1,3 @@
+ALTER TABLE books
+        ADD CONSTRAINT version_check 
+        CHECK (version<=10);

@@ -1,0 +1,1 @@
+ALTER TABLE books ADD COLUMN amount integer NOT NULL default 150;
